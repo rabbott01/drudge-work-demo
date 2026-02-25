@@ -1,0 +1,27 @@
+{
+  "name": "drudge-work-demo",
+  "version": "1.0.0",
+  "description": "Demo project for AI-assisted development approval - showcases upgrade tasks, TODO fixes, and routine maintenance",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/__tests__/utils.test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "demo",
+    "jules",
+    "ai-assisted-development"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.3",
+    "lodash": "4.17.19"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
