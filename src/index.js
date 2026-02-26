@@ -9,8 +9,7 @@ const { getGreeting, parseQuery } = require('./utils');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
-
+// TODO: Add request body parsing middleware for POST/PUT routes
 // TODO: Replace with a proper config module - hardcoded values below
 
 app.get('/', (req, res) => {
