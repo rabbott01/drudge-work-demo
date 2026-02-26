@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // TODO: Replace with a proper config module - hardcoded values below
+const DEFAULT_LIMIT = 10;
 
 app.get('/', (req, res) => {
   const greeting = getGreeting();
