@@ -11,7 +11,6 @@ const PORT = process.env.PORT || 3000;
 
 // TODO: Add request body parsing middleware for POST/PUT routes
 // TODO: Replace with a proper config module - hardcoded values below
-const DEFAULT_LIMIT = 10;
 
 app.get('/', (req, res) => {
   const greeting = getGreeting();
